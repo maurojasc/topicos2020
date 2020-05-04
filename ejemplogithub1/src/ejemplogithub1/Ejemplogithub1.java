@@ -23,6 +23,6 @@ public class Ejemplogithub1 {
     public String getnombre(){
         return nombre;
     }
-    }
-    
 }
+    
+
