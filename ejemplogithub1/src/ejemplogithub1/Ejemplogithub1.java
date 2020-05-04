@@ -15,6 +15,8 @@ public class Ejemplogithub1 {
      * @param args the command line arguments
      */
     String nombre;
+    int edad;
+    
     public static void main(String[] args) {
         System.out.println("version 1");
         System.out.println("Modificación lunes 4 de mayo del 2020");
@@ -22,6 +24,10 @@ public class Ejemplogithub1 {
     
     public String getnombre(){
         return nombre;
+    }
+    
+    public int getedad(){
+        return edad;
     }
 }
     
