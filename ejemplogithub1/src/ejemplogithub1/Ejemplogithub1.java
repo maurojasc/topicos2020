@@ -14,9 +14,15 @@ public class Ejemplogithub1 {
     /**
      * @param args the command line arguments
      */
+    String nombre;
     public static void main(String[] args) {
         System.out.println("version 1");
         System.out.println("Modificación lunes 4 de mayo del 2020");
+    }
+    
+    public String getnombre(){
+        return nombre;
+    }
     }
     
 }
